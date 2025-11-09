@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Face & Webcam Detection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AI Image & Webcam Detection</h1>
+    </header>
+
+    <main>
+      <!-- Image Upload Section -->
+      <section class="upload-section">
+        <h2>Face Detection (Upload Image)</h2>
+        <input type="file" id="imageUpload" accept="image/*" />
+        <div class="image-container">
+          <div class="box">
+            <h3>Uploaded Image</h3>
+            <img id="uploadedImage" src="" alt="Uploaded Preview" />
+          </div>
+          <div class="box">
+            <h3>Detection Result</h3>
+            <img id="resultImage" src="" alt="Detection Result" />
+          </div>
+        </div>
+      </section>
+
+      <hr />
+    </main>
+
+    <footer>
+      <p>Developed by Waqas Ahmed | Final DIP Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
